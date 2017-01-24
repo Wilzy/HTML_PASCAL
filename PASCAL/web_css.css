@@ -1,0 +1,96 @@
+/*Theme NAME: Theme site ludus1c
+THEME URI: ludus1C.com 
+Author: Allan Gullo
+description: theme css site web ludus1c
+version:1.0
+License: Ludus 1c 
+License URI: Ludus1C.com
+text domain: Ludus1c
+*/
+p{
+	font-size:20px;
+	
+	
+}
+a{
+	font-size: 25px;
+	color: #A6A6A6;
+	text-decoration: none;
+
+}
+
+
+body{/*mise en place de background*/
+	height:800px;
+	background-image:url("BG.jpg"); /*fond d'ecran*/
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+#contenu{/*contenue de la page*/
+	text-align:center;
+	font-weight: bold;
+	color:white;
+}
+.T1{ /*titre principal*/
+	text-align: center;
+	border:3px inset;
+	border-color: blue;
+	border-radius: 10px;
+	border-radius: 0px 10px 0px 10px;
+	background-color:black;
+	opacity:0.8;
+	box-shadow: 5px 5px 5px black;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 10px 5px 5px #767676;
+}
+
+#photo{ /*photo*/
+
+  float:center;	
+
+}
+
+
+.obj {/*titre sous partie*/
+
+	text-align: center;
+	font-weight:bold; 
+	color:white;
+}
+
+#para{ /*couleur des paragraphe*/
+	
+	/*text-align: center;
+	border:3px inset;
+	border-color: blue;
+	border-radius: 10px;
+	border-radius: 0px 10px 0px 10px;
+	background-color:black;
+	opacity:0.8;
+	box-shadow: 5px 5px 5px black;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 10px 5px 5px #767676;*/
+	color:white;
+	font-weight:bold;
+}
+.signature{/*signature*/
+	text-align:right;
+	color:white;
+}
